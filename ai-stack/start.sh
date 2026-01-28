@@ -209,7 +209,7 @@ if [ "$NO_PULL" = false ]; then
     docker pull frdel/agent-zero-run:latest
     
     print_step "Pulling ComfyUI..."
-    docker pull yanwk/comfyui-boot:latest
+    docker pull frdel/comfyui-docker:latest
     
     print_success "All images pulled successfully"
 else
